@@ -40,7 +40,7 @@ const Room = (props) => {
     return (
         <div>
             <Board id={room_id} />
-            <button className="slider_button" onClick={() => setOpenPanel(true)}>Open</button>
+            <button className="slider_button" onClick={() => setOpenPanel(true)}><i class="fas fa-chevron-left fa-3x"></i></button>
             <SlidingPanel
                 type={'right'}
                 isOpen={openPanel}
@@ -50,15 +50,15 @@ const Room = (props) => {
                 <div className="sidebar_container">
                     <nav className="nav_right">
                         <ul>
-                            <li  onClick={() => setNav(1)}>Edi</li>
-                            <li  onClick={() => setNav(2)}>Brow</li>
-                            <li  onClick={() => setNav(3)}>Pdf</li>
-                            <li  onClick={() => setNav(4)}>Qui</li>
+                            <li  onClick={() => setNav(1)}><i class="fas fa-code fa-3x"></i></li>
+                            <li  onClick={() => setNav(2)}><i class="fab fa-edge fa-3x"></i></li>
+                            <li  onClick={() => setNav(3)}><i class="fas fa-file-pdf fa-3x"></i></li>
+                            <li  onClick={() => setNav(4)}><i class="fas fa-user-tag fa-3x"></i></li>
                         </ul>
                     </nav>
                 {renderView()}
                 </div>
-                <button className="close_button" onClick={() => setOpenPanel(false)}>close</button>
+                <button className="close_button" onClick={() => setOpenPanel(false)}><i class="fas fa-times-circle"></i></button>
             </SlidingPanel>
         </div>
     );

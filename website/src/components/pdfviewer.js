@@ -13,7 +13,7 @@ const PdfViewer = () => {
             </div>
             <embed
                 ref={pdfRef}
-                src="file:///C:/Users/user/Downloads/DS_CLass_TEST.pdf"
+                src="http://infolab.stanford.edu/pub/papers/google.pdf#toolbar=0&navpanes=0&scrollbar=0"
                 type="application/pdf"
                 frameBorder="0"
                 scrolling="auto"

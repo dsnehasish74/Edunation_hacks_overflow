@@ -119,7 +119,7 @@ function Editor(props)
             />
           </div>
         </div>
-        <button onClick={handleClick}>
+        <button className="btn btn-success run" onClick={handleClick}>
             Run Code
         </button>
     </div>
