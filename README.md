@@ -5,6 +5,8 @@
   </strong>
 </div>
 
+![picture](https://github.com/dsnehasish74/Edunation_hacks_overflow/blob/main/website/src/components/asset/land.png)
+
 ## MOTIVATION✍
 In recent years, the world has changed dramatically, with online teaching creating a virtual revolution in the world of education. However, online teaching has its own drawbacks, to jump in and out for endless tabs in the browser with different apps installed is tiring, we call it "Lost in the cloud". With minimal interaction and lengthy lectures, classes are becoming uninteractive repetition. We therefore aspire to produce a more convinient system and make learning more joyous.
 
